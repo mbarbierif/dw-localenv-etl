@@ -1,0 +1,7 @@
+gdp-source:
+  driver: bamboo_lib.connectors.drivers.http.HttpDriver
+  uri: https://datahub.io/core/gdp/r/gdp.csv
+
+clickhouse-local:
+  driver: bamboo_lib.connectors.drivers.clickhouse.ClickhouseDriver
+  uri: clickhouse://$DB_USER:$DB_PW@$DB_URL/$DB_NAME

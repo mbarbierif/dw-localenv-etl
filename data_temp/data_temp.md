@@ -1,0 +1,1 @@
+This folder is necessary for a step in the pipeline.
